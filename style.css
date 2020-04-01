@@ -1,0 +1,210 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* body
+{
+    font-family: sans-serif;
+} */
+
+ /********************navbar************************/
+
+.navbar
+{
+    background-image: linear-gradient(to right,#2B1700, rgb(54, 29, 0));
+    padding: 0 !important;
+    background: transparent;
+}
+
+.navbar-brand img
+{
+    height: 55px;
+    width: 350px;
+    padding-left: 30px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 14pt;
+    text-align: right;
+
+}
+
+  /*****************About us*******************/
+
+  #section
+  {
+      padding: 0;
+  }
+
+  .about-title::before 
+  {
+    content: '';
+    background: rgb(134, 61, 61);
+    height: 5px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(90px);
+  }
+
+  .about-para
+  {
+      text-align: justify;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 1.25rem;
+      color: gray;
+  }
+
+
+/*********************************Footer*************************************/
+.footer {
+    position: relative;
+    background-color: #6e3000;
+    color: #833737;
+    padding: 30px 0 10px;
+}
+.footer h5 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #c59d69;
+    position: relative;
+    padding-bottom: 16px;
+}
+.footer p
+{
+    padding-bottom: 8px;
+    color: rgb(255, 239, 225);
+}
+
+
+/*****************footer bottom**********************/
+.footer-bottom {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top: 1px solid rgba(0,0,0,0.09);
+    background: #fff;
+    
+}
+.copyright-text p {
+    color: gray;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size:14px;
+}
+
+/*****************Social Icons*******************/
+
+.social-icons{
+    
+    margin: 0;
+    padding: 10pt;
+    font-size : 10px;
+}
+
+.social {
+    margin:7px 7px 7px 0px;
+    color:#fff;
+}
+#social-fb:hover {
+     color: #3B5998;
+     transition:all .25s;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+     transition:all .25s;
+ }
+
+/* ****************video ****************/
+
+header {
+  position: relative;
+  background-color: black;
+  height: 95vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* header . {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+} */
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('./videos/Kerala-God\'s_Own_Country.mkv') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+/* *************************explore kerala***************** */
+
+
+
+.box15{position:relative}
+.box15 img{width:100%;height:auto}
+.box15 .box-content{width:100%;height:100%;position:absolute;top:0;left:0;transition:all .5s ease 0s}
+.box15:hover .box-content{background-color:rgba(255,242,242,.8)}
+.box15 .box-content:after,.box15 .box-content:before{content:"";width:50px;height:50px;position:absolute;opacity:0;transform:scale(1.5);transition:all .6s ease .3s}
+.box15 .box-content:before{border-left:1px solid #040404;border-top:1px solid #040404;top:19px;left:19px}
+.box15 .box-content:after{border-bottom:1px solid #040404;border-right:1px solid #040404;bottom:19px;right:19px}
+.box15:hover .box-content:after,.box15:hover .box-content:before{opacity:1;transform:scale(1)}
+.box15 .title{font-size:22px;color:#000;margin:0;position:relative;top:0;opacity:0;transition:all 1s ease 10ms}
+.box15:hover .title{top:39%;opacity:1;transition:all .5s cubic-bezier(1,-.53,.405,1.425) 10ms}
+.box15 .title:after{content:"";width:0;height:1px;background:#040404;position:absolute;bottom:-8px;left:0;right:0;margin:0 auto;transition:all 1s ease 0s}
+.box15:hover .title:after{width:80%;transition:all 1s ease .8s}
+.box15 .icon{width:100%;margin:0 auto;position:absolute;bottom:0;opacity:0;transition-duration:.6s;transition-timing-function:cubic-bezier(1,-.53,.405,1.425);transition-delay:.1s}
+.box15:hover .icon{bottom:39%;opacity:1}
+.box15 .icon li{display:inline-block}
+.box15 .icon li a{display:block;width:40px;height:40px;line-height:40px;border-radius:50%;font-size:18px;color:#000;border:1px solid #000;margin-right:5px;transition:all .3s ease-in-out 0s}
+.box15 .icon li a:hover{background:#000;color:#fff}
+@media only screen and (max-width:990px){.box15{margin-bottom:30px}
+}
+
+
+/****************gallery*************** */
+
+#gallery{
+  background-color:#FFE4C4;
+  margin-top: 70pt;
+}

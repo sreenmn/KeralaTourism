@@ -1,0 +1,151 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* body
+{
+    font-family: sans-serif;
+} */
+
+ /********************navbar************************/
+
+.navbar
+{
+    background-image: linear-gradient(to right,#2B1700, rgb(54, 29, 0));
+    padding: 0 !important;
+    
+}
+
+.navbar-brand img
+{
+    height: 55px;
+    width: 350px;
+    padding-left: 30px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 14pt;
+    text-align: right;
+
+}
+
+  /*****************About us*******************/
+
+  #section
+  {
+      padding: 0;
+  }
+
+  .about-title::before 
+  {
+    content: '';
+    background: rgb(134, 61, 61);
+    height: 5px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(90px);
+  }
+
+  .about-para
+  {
+      text-align: justify;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 1.25rem;
+      color: gray;
+  }
+
+
+/*********************************Footer*************************************/
+.footer {
+    position: relative;
+    background-color: #6e3000;
+    color: #833737;
+    padding: 30px 0 10px;
+}
+.footer h5 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #c59d69;
+    position: relative;
+    padding-bottom: 16px;
+}
+.footer p
+{
+    padding-bottom: 8px;
+    color: rgb(255, 239, 225);
+}
+
+
+/*****************footer bottom**********************/
+.footer-bottom {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top: 1px solid rgba(0,0,0,0.09);
+    background: #fff;
+    
+}
+.copyright-text p {
+    color: gray;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size:14px;
+}
+
+/*****************Social Icons*******************/
+
+.social-icons{
+    
+    margin: 0;
+    padding: 10pt;
+    font-size : 10px;
+}
+
+.social {
+    margin:7px 7px 7px 0px;
+    color:#fff;
+}
+#social-fb:hover {
+     color: #3B5998;
+     transition:all .25s;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+     transition:all .25s;
+ }
+
+
+/*********************** Demo - 19 *******************/
+.box19{text-align:center;position:relative; margin-top: 30pt;}
+.box19 .box-content{width:100%;height:100%;background:0 0;padding-top:25%; position:absolute;top:0;left:0;transition:all .3s ease 0s}
+.box19 .icon,.box19 .title{transition:all .2s ease 0s}
+.box19:hover .box-content{background:rgba(0,0,0,.5)}
+.box19 .title{font-size:24px;color:#fff;transform:scale(0)}
+.box19:hover .title{transform:scale(1)}
+.box19 .icon{list-style:none;padding:0;margin:0;opacity:0}
+.box19:hover .icon{opacity:1}
+.box19 .icon li{display:inline-block}
+.box19 .icon li:first-child a,.box19 .icon li:last-child a{display:block;width:50px;height:50px;line-height:50px;font-size:24px;color:#fff;border:1px solid #fff;position:relative}
+.box19 .icon li a{top:-150px}
+.box19:hover .icon li a{top:0}
+.box19:hover .icon li a:hover{background:#a46789;border-color:#a46789}
+.box19 .icon li:first-child a{transition:all .6s cubic-bezier(.175,.885,.32,1.275) 0s}
+.box19 .icon li:last-child a{transition:all .6s cubic-bezier(.175,.885,.32,1.275) .1s}
+@media only screen and (max-width:990px){.box19{margin-bottom:30px}
+}
+@media only screen and (max-width:360px){.box19 .box-content{padding-top:20%}
+}
+
+
