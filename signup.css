@@ -4,44 +4,66 @@
   background: url(./images/Thalassery_Pier_43.jpg);
 }
 
+/* **************************************************************************************** */
 
-    a{
-     text-decoration:none !important;
-     }
-     h1,h2,h3{
-     font-family: 'Kaushan Script', cursive;
-     }
-      .myform{
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 1rem;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 100%;
-    pointer-events: auto;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.2);
-    border-radius: 1.1rem;
-    outline: 0;
-    max-width: 500px;
-    margin-top: 50pt;
-    margin-bottom: 105pt;
-     }
-     .tx-tfm{
-     text-transform:uppercase;
-     }
-     .mybtn{
-     border-radius:50px;
-     }
-    
-     .login-or {
-     position: relative;
-     color: #aaa;
-     margin-top: 10px;
-     margin-bottom: 10px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     }
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.progress {
+  height: 5px;
+}
+
+.control-label {
+  text-align: left !important;
+  padding-bottom: 7px;
+}
+
+.form-horizontal {
   
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding-left: 20pt;
+  padding-right: 20pt;
+}
+
+select.form-control:focus {
+  border-color: #e9ab66;
+  box-shadow: none;
+}
+
+.block-help {
+  font-weight: 300;
+}
+
+.divider {
+  position: absolute;
+  height: 2px;
+  border: 1px solid #eee;
+  width: 100%;
+  top: 10px;
+  z-index: -5;
+}
+
+.ex-account {
+  position: relative;
+}
+
+.ex-account p {
+  background-color: rgba(255, 255, 255, 0.41);
+}
+
+select:hover {
+  color: #444645;
+  background: #ddd;
+}
+
+.fa-file-text {
+  color: #edda39;
+}
+
+.mar-top-bot-50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
